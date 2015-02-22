@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.androidphotoserviceclient.MainActivity$PlaceholderFragment" >
+
+    <Button
+        android:id="@+id/btnSendServer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnOpenCam"
+        android:layout_alignBottom="@+id/btnOpenCam"
+        android:layout_toRightOf="@+id/btnOpenCam"
+        android:text="sendtoserver" />
+
+    <Button
+        android:id="@+id/btnOpenCam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="Open cam" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnSendServer"
+        android:layout_below="@+id/btnSendServer"
+        android:layout_marginTop="138dp"
+        android:src="@drawable/abc_ab_solid_light_holo" />
+
+</RelativeLayout>
